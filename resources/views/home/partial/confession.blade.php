@@ -22,7 +22,7 @@
     <textarea class="form-control mb-2" placeholder="Confession here..." style="height: 100px"></textarea>
     <div class="d-flex align-items-center text-light mb-3">
         <input class="form-check-input me-2" type="checkbox" value="" name="anonymus" id="anonymus">
-        <label for="anonymus">Set my username to anonymus/ hide my username</label>
+        <label for="anonymus">Set my username to anonymous/ hide my username</label>
     </div>
     <input class="btn btn-danger w-100 p-3" type="submit" value="Confess!">
 </form>
