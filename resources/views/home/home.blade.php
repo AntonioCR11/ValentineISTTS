@@ -84,7 +84,10 @@
             <p class="m-0 pt-4 title" >
                 Your Crush
             </p>
-            <p class="text-secondary mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, nihil autem? Tenetur quidem nesciunt ab, autem veritatis aliquid ea dolorem rerum odit distinctio deleniti illo quisquam aut. Iste facere cupiditate natus amet expedita facilis obcaecati, blanditiis fuga. Accusantium alias vitae, esse dolorem fugit nobis facere saepe incidunt natus qui? Hic.</p>
+            <p class="text-secondary mb-5">
+                Yup! It's Valentine Day. Kita dari BEM ada little event called "Day of Love". Di event kali ini kalian bisa kasih Gift buat orang yang kalian sayang, ga harus pacar ya, mau bestie, saudara atau temen deket kalian. Disini BEM udah sediain nih Gift yang pastinya lucu, menarik dan juga terjangkau buat kalian.
+                💌 Post Love / @2K. Kalian bisa beli Gift ini besok di depan gedung U yaa, akan ada Booth BEM yang berjaga seharian!
+            </p>
 
             {{-- NAVIGATION --}}
             <div class="row w-100 m-0">

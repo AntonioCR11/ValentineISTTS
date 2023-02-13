@@ -20,7 +20,7 @@ class Post extends Model
         'content',
     ];
     // relationships
-    public function posts()
+    public function user()
     {
         /*
             RELATION DESCRIPTION :
