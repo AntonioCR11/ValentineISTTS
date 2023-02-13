@@ -19,9 +19,9 @@
             <input type="text" class="form-control mb-2 p-3" placeholder="Recipient, can be initial ;)" name="recipient">
         </div>
     </div>
-    <textarea class="form-control mb-2" placeholder="Confession here..." style="height: 100px"></textarea>
+    <textarea name="content" class="form-control mb-2" placeholder="Confession here..." style="height: 100px"></textarea>
     <div class="d-flex align-items-center text-light mb-3">
-        <input class="form-check-input me-2" type="checkbox" value="" name="anonymus" id="anonymus">
+        <input class="form-check-input me-2" type="checkbox" name="anonymus" id="anonymus">
         <label for="anonymus">Set my username to anonymous/ hide my username</label>
     </div>
     <input class="btn btn-danger w-100 p-3" type="submit" value="Confess!">

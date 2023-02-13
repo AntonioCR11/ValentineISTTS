@@ -15,7 +15,10 @@ class Post extends Model
     protected $primaryKey = 'id';
     public $incrementing = true;
     public $timestamps = true;
-
+    protected $fillable = [
+        'recipient',
+        'content',
+    ];
     // relationships
     public function posts()
     {
