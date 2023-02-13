@@ -14,4 +14,9 @@ class PostController extends Controller
         $posts = Post::all();
         return view('posts.posts',compact('currPage','posts'));
     }
+    public function generatePostList(Request $request)
+    {
+        $posts = Post::where('recipient','like','%'.$request->recipient.'%')->get();
+        return view('posts.partial.postlist',compact('posts'));
+    }
 }

@@ -49,7 +49,12 @@
                             <div id="{{$post->id}}" class="postcard" onclick="postClicked(this.id)" style="position: relative">
 
                                 <div id="message{{$post->id}}" class="message p-3 bg-light overflow-auto" style="position: absolute;height: 100%;width: 100%;">
-                                    <h5>From : {{$post->user->username}}</h5>
+                                    @if ($post->anonymus==1)
+                                        <h5>From : Anonymous</h5>
+                                    @else
+                                        <h5>From : {{$post->user->username}}</h5>
+                                    @endif
+
                                     <p>{{$post->content}}</p>
                                 </div>
 

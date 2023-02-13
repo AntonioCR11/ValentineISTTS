@@ -16,5 +16,5 @@ Route::prefix('/home')->group(function () {
 
 Route::prefix('/posts')->group(function () {
     Route::get('/', [PostController::class,"masterPosts"])->name("posts");
-
+    Route::get('/generatePostlist', [PostController::class,"generatePostlist"]);
 });
