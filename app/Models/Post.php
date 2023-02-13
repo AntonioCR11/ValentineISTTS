@@ -6,12 +6,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class User extends Model
+class Post extends Model
 {
     use HasFactory;
     use SoftDeletes;
 
-    protected $table = 'users';
+    protected $table = 'posts';
     protected $primaryKey = 'id';
     public $incrementing = true;
     public $timestamps = true;
@@ -25,6 +25,6 @@ class User extends Model
             Related Table : User & Posts
             Desc : User can have many posts - a Post belongs to a user
         */
-        return $this->hasMany(Post::class);
+        return $this->belongsTo(User::class);
     }
 }
